@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Collect the project into one file
+
+run `ng build --prod --output-hashing none --single-bundle true` to collect the project into one file
+
+## Setup server
+
+run `http-server ./dist/flight-booking -p 8082` to setup server
